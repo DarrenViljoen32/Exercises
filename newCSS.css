@@ -1,0 +1,44 @@
+header {   
+    display: inline;
+    text-align: center;  
+}  
+header  a {  
+    color: blue;  
+    text-decoration: none;  
+}  
+*{
+background-color: lightblue
+}
+h1,
+h2,
+h3{
+font-style: italic;
+font-family: 'Times New Roman', Times, serif;
+}
+body{
+border: black solid 5px;
+}
+.div1{
+    padding: 10px;
+}
+#img2{
+    size: 50px;
+}
+#p1{
+color: crimson;
+}
+
+#logo{
+    background-color: gray;
+}
+
+#form{
+    padding-left: 90%;
+    padding-top: 20px;
+}
+#p3 i:first-child{
+    color: darkblue;
+}
+#p2::first-letter{
+    color: gold;
+}
