@@ -25,11 +25,11 @@ border: black solid 5px;
     size: 50px;
 }
 #p1{
-color: crimson;
+color: var(--customColor2);
 }
 
 #logo{
-    background-color: gray;
+    background-color: var(--customColor3);
 }
 
 #form{
@@ -37,8 +37,22 @@ color: crimson;
     padding-top: 20px;
 }
 #p3 i:first-child{
-    color: darkblue;
+    color: var(--customColor1);
 }
 #p2::first-letter{
-    color: gold;
+    color: var(--customColor4);
+}
+
+:root{
+    --customColor1: #00cc00;
+    --customColor2: #ff9ba1;
+    --customColor3: #655ba1;
+    --customColor4: #ff8f0d;
+}
+
+@media screen and (max-width: 450px) {
+    body{
+        padding: auto;
+        text-align: center;
+    }
 }
