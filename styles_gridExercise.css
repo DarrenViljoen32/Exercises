@@ -1,0 +1,74 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+    padding: 0;
+}
+
+img{
+    width: 250px;
+    height: 275px;
+}
+
+nav ul {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-right: 5px;
+    text-decoration: none;
+    background-color: lightblue;
+    box-shadow: 0 0 25px black;
+}
+
+.container{
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    grid-template-areas: 
+    "fristHeading secondHeading secondHeading"
+    "data1        data2         data3"
+    "data4        data5         data6"
+    "data7        data8         data9"
+    ;
+}
+
+#sec2{
+    grid-column: 3;
+    grid-row: 1;
+}
+#sec3{
+    grid-column: 2;
+    grid-row: 2;
+}
+#sec4{
+    grid-column: 1;
+    grid-row: 3;
+}
+#sec5{
+    grid-column: 3;
+    grid-row: 3;
+}
+#sec6{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+/* #sec1{
+    grid-area: data4;
+}
+#sec2{
+    grid-area: secondHeading;
+} */
+
+/* #sec1{
+    grid-column: 1;
+    grid-row: 2;
+} */
+/*
+#sec4{
+    grid-column: 3;
+    grid-row: 3;
+} */
