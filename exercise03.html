@@ -4,80 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3 Images</title>
-    <link rel="stylesheet" href="newCSS.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="exercise01.html">Excercise 1</a>
-            <a href="tables.html">Excercise 2</a>
-            <a href="exercise03.html">Excercise 3</a>
-        </nav>
-        <hr>
-    </header>
-    <div class="div1" >
-        <h1>These are my Personality Traits</h1>
-        <h2>Have a look:</h2>
-        <br><br>
+    <div >
         <caption><h3>I am Inquisitive</h3></caption>
-        <img src="/inquisitive.jpeg" width="250px" height="250px" title=" I am Inquisitive">
-        <p id="p1">The above image represents my Inquisitive nature.</p>
+        <img src="inquisitive.jpeg" width="250px" height="250px" title=" I am Inquisitive">
+        <p>The above image represents my Inquisitive nature.</p>
+        <hr>
 
         <caption><h3>I am Observant</h3></caption>
-        <img id="img2" src="/observant.jpeg" width="250px" height="250px" title="I am Observant">
-        <p id="p2">The image above represents how observant I am.</p>
+        <img src="/observant.jpeg" width="250px" height="250px" title="I am Observant">
+        <p>The image above represents how observant I am.</p>
+        <hr>
 
         <caption><h3>I am Reserved</h3></caption>
         <img src="/reserved.jpg" width="250px" height="250px" title="I am Reserved">
-        <p id="p3">This image is a <i>representation</i> of my reserved personality.</p>
+        <p>This image is a representation of my reserved personality.</p>
     </div>        
     <hr>
-        <h3>Four other psuedo classes & elements:</h3>
-        <h4>Psuedo Classes</h4>
-        <ul>
-            <li>Simple Tooltip Hover. Hover over a div element to show a paragraph element (like a tooltip)</li>
-            <li>CSS - The :first-child Pseudo-class. The :first-child pseudo-class matches a specified element that is the first child of another element.</li>
-            <li>Match the first paragraph element.  The selector matches any paragraph element that is the first child of any element</li>
-            <li>CSS - The :lang Pseudo-class. The :lang pseudo-class allows you to define special rules for different languages.</li>
-        </ul>
-        <br>
-        <h4>Psuedo Elements</h4>
-        <ul>
-            <li>CSS - The ::before Pseudo-element. The ::before pseudo-element can be used to insert some content before the content of an element.</li>
-            <li>CSS - The ::after Pseudo-element. The ::after pseudo-element can be used to insert some content after the content of an element.</li>
-            <li>CSS - The ::marker Pseudo-element. The ::marker pseudo-element selects the markers of list items.</li>
-            <li>CSS - The ::selection Pseudo-element. he ::selection pseudo-element matches the portion of an element that is selected by a user.</li>
-        </ul>
-        <br>
-        <h3>What box-sizing: border-box does:</h3>
-        <p>The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
-            The box-sizing property allows us to include the padding and border in an element's total width and height.
-            If you set box-sizing: border-box; on an element, padding and border are included in the width and height.
-        </p>
-        <br>
-        <h3>Two ways of using color:</h3>
-        <ul>
-            <li>Gradients.
-                CSS gradients let you display smooth transitions between two or more specified colors.
-                Syntax:
-                "background-image: linear-gradient(red, yellow);"
-            </li>
-            <li>
-                RGB.
-                Each parameter (red, green, and blue) defines the intensity of the color with a value between 0 and 255.
-                Syntax:
-                "color: rgb(255, 255, 255);"
-            </li>
-        </ul>
-    <hr>
     <div>
-        <a href="https://lifechoices.co.za/"><img id="logo" src="/life_choices_logo.png" title=" Go to Life Choices Academy"></a>
+        <a href="https://lifechoices.co.za/"><img src="/life_choices_logo.png" title=" Go to Life Choices Academy" style="background-color: grey;"></a>
         
     </div>
+    <hr>
 </body>
 <footer>
-    <form id="form">
-        <button id="butt" onclick="screenTop" title=" Go Back to Top">Back to Top</button>
+    <form style="padding-left: 90%; padding-top: 20px;">
+        <button onclick="screenTop" title=" Go Back to Top">Back to Top</button>
     </form>
 </footer>
 </html>
